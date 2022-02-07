@@ -24,7 +24,7 @@
 
 **5. 실행 영상**
 
-- 유튜브[Youtube](https://youtu.be/r76EL3OJV7w)
+- [Youtube](https://youtu.be/r76EL3OJV7w)
 
 
 
