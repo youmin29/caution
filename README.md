@@ -22,7 +22,9 @@
 
 - 음식, 행동에 아이템 계속 추가 예정
 
+**5. 실행 영상**
 
+- 유튜브[Youtube](https://youtu.be/r76EL3OJV7w)
 
 
 
