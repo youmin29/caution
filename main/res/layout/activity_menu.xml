@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_app1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="사용 방법"
+        android:textColor="#FFAA42"
+        android:background="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_app2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="원하는 주제를 찾은 후 해당 주제를 터치하면\n해당 주제에 대한 설명이 나와요!"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@id/txt_app1"/>
+
+    <View
+        android:id="@+id/line2"
+        android:background="#FFAA42"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_app2"/>
+
+    <TextView
+        android:id="@+id/txt_food1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/line2"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="정렬 방식"
+        android:textColor="#FFAA42"
+        android:background="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_food2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="음식: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@id/txt_food1"/>
+
+    <TextView
+        android:id="@+id/txt_food3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="(목록) 과일 -> 식품 -> 채소(가나다순) \n(아이템) 가나다순"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@id/txt_food1"
+        android:layout_toRightOf="@id/txt_food2"/>
+
+    <TextView
+        android:id="@+id/txt_food4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="(예. 계란을 찾으려면 식품에서 가나다 순서로 찾음)"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@id/txt_food3"
+        android:layout_toRightOf="@id/txt_food2"/>
+
+    <TextView
+        android:id="@+id/txt_act1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="행동: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@id/txt_food4"/>
+
+    <TextView
+        android:id="@+id/txt_act2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="(목록) 고개->꼬리->...->행동(가나다순)\n(아이템) 가나다순"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@id/txt_food4"
+        android:layout_toRightOf="@id/txt_act1"/>
+
+    <TextView
+        android:id="@+id/txt_act3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="(예. 발과 관련된 행동이라면 목록에서 발을 찾은 후 아이템을 찾음)"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@id/txt_act2"
+        android:layout_toRightOf="@id/txt_act1"/>
+
+    <View
+        android:id="@+id/line"
+        android:background="#FFAA42"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_act3"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="조심하개란?"
+        android:textColor="#FFAA42"
+        android:background="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="강아지를 키우는 사람들이 조금이라도 빨리 정보를 얻을 수 있도록 도와주는 어플입니다 :)"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="제작 관련"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="제작자: 광운대학교 정보융합학부 이유민"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="영감을 준 못난이: 이아토"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id = "@+id/ato"
+        android:layout_marginLeft="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ato"
+        android:layout_below="@id/textView4"
+        android:layout_toRightOf="@id/textView5"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ato"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="이것저것 주워먹고 다니는 이아토를 걱정하다"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="조심하개"
+        android:textColor="#FFAA42"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_toRightOf="@id/textView7"
+        android:fontFamily="@font/lottemart_medium"
+        android:text="를 생각하게 되었습니다 :)"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
